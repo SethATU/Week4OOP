@@ -1,13 +1,13 @@
 package ie.atu;
 
-public class Student {
+public class Students {
 
     String name;
     String email;
     String course;
 
     //constructor
-    public Student()
+    public Students()
     {
         System.out.println("Student constructor");
         this.name = "";
