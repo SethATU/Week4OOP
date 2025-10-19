@@ -35,6 +35,15 @@ public class StudentApp { public static void main(String[] args)
         i++;
     }
 
+    System.out.println("Student List:");
+    for (Students Students : studentArrayList)
+    {
+        //print name, email, course using getters
+       System.out.println(Students.name);
+       System.out.println(Students.email);
+       System.out.println(Students.course);
+    }
+
 
 
     }
